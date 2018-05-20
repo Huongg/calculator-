@@ -36,7 +36,7 @@ $(document).ready(function(){
 		})
 
 		$("#clearall").click(function(){
-			leftnumber = "";
+			leftNumber = "";
 			rightNumber= "";
 			result="";
 			operator ="";
