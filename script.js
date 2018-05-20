@@ -35,10 +35,12 @@ $(document).ready(function(){
 			} 
 		})
 
-		$("#clear,#clearall").click(function(){
+		$("#clearall").click(function(){
 			leftnumber = "";
-			rightNumber="";
+			rightNumber= "";
 			result="";
+			operator ="";
+			hadOperator = false;
 			totaldiv.text("0");		
 	    });
 
