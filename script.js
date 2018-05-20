@@ -9,7 +9,7 @@ $(document).ready(function(){
     	totaldiv.text("0");
 
 
-		$("#numbers a").not("#all, #clearall").click(function(){
+		$("#numbers a").not("#clearall").click(function(){
 			if (hadOperator ==false){
 				leftNumber += $(this).data('value');
 				totaldiv.text(leftNumber);
@@ -43,6 +43,7 @@ $(document).ready(function(){
 			hadOperator = false;
 			totaldiv.text("0");		
 	    });
+
 
 	    $("#equals").click(function(){
 	    	updateOperatorsColour ($(this));
